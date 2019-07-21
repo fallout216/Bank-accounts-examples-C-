@@ -1,6 +1,8 @@
 # Bank-accounts-examples-Cpp
 Practicing C++ template classes, polymorphism, overriding and inheritance concepts by creating three categories of bank accounts with different functions. Please run main.cpp for a demonstration.
 
+The project is designed by Mr. Frank Mitropoulos on Udemy.
+
 I_printable is a template class that overrides << output opreator.
 Account is a template class derived from I_printable that provides basic deposit, withdrawl and display functions.
 Savings_Account class is derived from Account. It uses polymorphism to implement a special deposit function such that whenever a Savings_Account object deposits money, a bonus percentage of the money is deposited as well.
